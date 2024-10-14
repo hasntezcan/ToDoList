@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(200, 100%, 30%);
+  }
+  
+  .toDoList {
+    background-color: hsl(33, 100%, 88%);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  h1 {
+    font-size: xxx-large;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  input[type="text"] {
+    color: hsl(0, 0%, 15%);
+    background-color: hsl(0, 0%, 80%);
+    padding: 5px;
+    font-size: 1.4rem;
+    border-radius: 7px;
+    border-color: hsl(10, 100%, 50%);
+  }
+
+  input[type="text"]::placeholder {
+    color:hsl(0, 0%, 20%);
+  }
+  
+  button {
+    font-size: 1.4rem;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 5px 10px;;
+  }
+  
+  li {
+    background-color: hsl(30, 35%, 70%);
+    text-overflow: ellipsis;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: x-large;
+    display: flex;
+    border: 3px solid hsl(0, 0%, 60%);
+    border-radius: 20px;
+    align-items: center;
+  }
+  
+  .text {
+    flex: 1;
+    white-space: normal; 
+    word-break: break-word; 
+    overflow-wrap: break-word; 
+    margin-right: 20px;
+  }
+  
+  .addButton {
+    background-color: hsl(0, 0%, 75%);
+  }
+  
+  .addButton:hover {
+    background-color: hsl(0, 0%, 80%);
+  }
+  
+  .removeButton {
+    background-color: hsl(0, 100%, 35%);
+    font-weight: bold;
+  }  
+  
+  .removeButton:hover {
+    background-color: hsl(0, 100%, 45%);
+  }
+  
+  .upButton {
+    background-color: hsl(37, 29%, 67%);
+  }
+  
+  .upButton:hover {
+    background-color: hsl(37, 29%, 77%);
+  }
+  
+  .downButton {
+    background-color: hsl(60, 56%, 85%);
+  }
+  
+  .downButton:hover {
+    background-color: hsl(60, 56%, 95%);
+  }
